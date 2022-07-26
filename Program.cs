@@ -1,11 +1,10 @@
 ﻿// array of strings
 string[] arrayInput = new string[4] {"hello", "2", "world", ":-)"};
-string[] arrayOutput = new string[arrayInput.Length];
+int size = 0;
+string[] arrayOutput = new string[size];
 int indexInput = 0;
 int indexOutput = 0; 
-
-
-PrintStringArray(arrayInput);
+   
 
 void PrintStringArray(string[] array)
 {
